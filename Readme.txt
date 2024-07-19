@@ -30,3 +30,10 @@ To install these, add the following lines to your `Cargo.toml`:
 image = "0.23"
 rayon = "1.5"
 svg = "0.8"
+
+
+Extra Info:
+Faster by about 15 seconds with Parrell implmentation of the code with large images (4k),
+Turns out the sobel opperator and rust itself is a verry fast language, 
+Although with biggerfiles, the grea scale alpha function can take time doing each pixel
+individualy 
