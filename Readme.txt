@@ -37,3 +37,4 @@ Faster by about 15 seconds with Parrell implmentation of the code with large ima
 Turns out the sobel opperator and rust itself is a verry fast language, 
 Although with biggerfiles, the grea scale alpha function can take time doing each pixel
 individualy 
+Most of this code was run and tested on WSL and vim localy, and did not constantly commit during the process. 
